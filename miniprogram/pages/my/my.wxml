@@ -1,0 +1,72 @@
+<view>
+
+  <view class="head">
+    <view>
+      <image class="avatar" src="../../image/my/头像.png"></image>
+    </view>
+    <view class="name">
+      <view class="nameId">名字</view>
+      <view>编码:hbk</view>
+    </view>
+  </view>
+  <view class="box1"></view>
+
+  <view class="orderlist">
+    <view class="order">
+      <view class="my_order">我的订单</view>
+      <view class="whole_order">全部订单 > </view>
+
+
+    </view>
+    <view class="box-bored"></view>
+
+    <view class="function_bar">
+
+      <view class="function_bar1">
+        <image class="function_barimg" src="../../image/my/代付款.png"></image>
+        <view> 代付款</view>
+      </view>
+
+      <view class="function_bar1">
+        <image class="function_barimg" src="../../image/my/代付款.png"></image>
+        <view> 代付款</view>
+      </view>
+
+      <view class="function_bar1">
+        <image class="function_barimg" src="../../image/my/代付款.png"></image>
+        <view> 代付款</view>
+      </view>
+
+      <view class="function_bar1">
+        <image class="function_barimg" src="../../image/my/代付款.png"></image>
+        <view> 代付款</view>
+      </view>
+
+    </view>
+
+
+
+  </view>
+  <view class="dingkai"></view>
+  <!-- 功能栏 -->
+  <view class="function">
+
+    <view>
+      <view class="wodedizhui">
+        <view class="bored1">我的地址</view>
+        <image  class="arrow" src="../../image/my/小箭头.png"></image>
+      </view>
+      <view class="gan"></view>
+    </view>
+
+
+        <view>
+      <view class="wodedizhui">
+        <view class="bored1">我的地址</view>
+        <image  class="arrow" src="../../image/my/小箭头.png"></image>
+      </view>
+      <view class="gan"></view>
+    </view>
+
+  </view>
+</view>

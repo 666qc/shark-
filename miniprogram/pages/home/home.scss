@@ -1,0 +1,251 @@
+.hiede {
+  background-color: #4e148c;
+  border-bottom-left-radius: 300rpx;
+  border-bottom-right-radius: 300rpx;
+
+
+  .logo {
+    height: 60rpx;
+  }
+
+  .Carouselbox {
+    margin: 0 20rpx;
+    background-color: #4e148c;
+
+    swiper {
+      swiper-item {
+        image {
+          display: flex;
+          justify-content: center;
+          width: 100%;
+          border-radius: 10rpx;
+        }
+      }
+    }
+
+  }
+
+
+}
+
+// .Carousel_bottom {
+//   height: 200rpx;
+//   background-color: #550f8b;
+
+.workfu {
+  display: flex;
+}
+
+.work {
+  display: flex;
+  margin: auto;
+  margin-top: 40rpx;
+  height: 400rpx;
+  width: 650rpx;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 30rpx;
+  box-shadow: 0px 0px 20px #242424;
+  background-color: #fff;
+  flex-wrap: wrap;
+
+  .aircraft {
+    width: 100rpx;
+    height: 100rpx;
+  }
+
+  .destination {
+    display: flex;
+    justify-content: space-around;
+    width: 200rpx;
+    font-size: 50rpx;
+  }
+
+  // }
+
+}
+
+.underpart {
+  background-color: #ff6600;
+  margin: 20rpx 20rpx;
+  display: flex;
+  border-radius: 60rpx;
+
+  .customerbox {
+    .customer {
+      width: 54px;
+      height: 100%;
+    }
+  }
+
+  .carry_customer {
+    position: relative;
+    display: flex;
+
+    .contact {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      color: #ffffff;
+      box-sizing: border-box;
+
+      view {
+        margin-left: 20rpx;
+        width: 300rpx;
+      }
+
+      .lxi {
+        font-size: 30rpx;
+        font-weight: 700;
+        margin-top: 10rpx;
+      }
+
+      .doubt {
+        font-size: 25rpx;
+        margin-bottom: 20rpx;
+      }
+    }
+
+    .return {
+      position: absolute;
+      right: 10rpx;
+      top: 20xpx;
+      width: 27px;
+      height: 27px;
+      margin-top: 20rpx;
+      // background-color: rgba(247, 246, 246, 100);
+      // background-color: #f7f6f6;
+
+    }
+
+  }
+
+
+
+}
+
+.clause {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  margin: 20rpx 20rpx;
+
+  .Instructions {
+    padding: 20rpx;
+    background-color: #9877bb;
+    border-radius: 20rpx;
+    width: 300rpx;
+
+    .matter {
+      display: flex;
+      flex-wrap: wrap;
+
+      .matterxuzhi {
+        font-size: 700;
+        font-size: 50rpx;
+        margin-bottom: 10rpx;
+      }
+    }
+
+    .InstructionsImg {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .xiaofuihui{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60rpx;
+        height: 60rpx;
+        background-color: #4e148c;
+        border-radius: 50%;
+        .xiaofuihui2{
+          // display: flex;
+          // justify-content: center;
+          width: 80rpx;
+          height: 40rpx;
+        }
+      }
+      .carimg{
+        width: 200rpx;
+        height: 200rpx;
+      }
+    }
+  }
+
+  .Freight_estimate {
+    padding: 20rpx;
+    border-radius: 20rpx;
+    width: 300rpx;
+    
+    background-color: #fc9d62;
+
+    .Freight_estimatefeiyong {
+      display: flex;
+      flex-wrap: wrap;
+      color: #e7691d;
+      .freight {
+        font-size: 700;
+        font-size: 50rpx;
+        margin-bottom: 10rpx;
+      }
+
+    }
+
+    .Freight_estimateImg {
+      // margin-top: 0rpx;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-left: 70rpx;
+
+      .return2box{
+        display: flex;
+        align-items: center;
+        width: 60rpx;
+        height: 60rpx;
+        border-radius: 50%;
+        background: #ff6200;
+        .return2{
+          width: 80rpx;
+          height: 40rpx;
+        }
+      }
+      .Calculator{
+        margin-left: 20rpx;
+        width: 100rpx;
+        height: 100rpx;
+      }
+    }
+
+  }
+
+
+}
+.yunzuo{
+  margin: 20rpx ;
+  .operation{
+    font-weight: 700;
+    font-size: 40rpx;
+  }
+  .flowpathbox{
+    width: 100%;
+    .flowpath {
+      width: 100%;
+      height: 200rpx;
+    }
+  }
+  .btn{
+    
+  }
+  .font{
+    font-size: 17rpx;
+    display: flex;
+    justify-content: center;
+    margin-top: 10rpx;
+    color: #550f8b;
+  }
+
+
+}

@@ -1,0 +1,98 @@
+<view>
+  <view class="hiede">
+    <view class="logo"></view>
+
+    <view class="Carouselbox">
+      <swiper indicator-dots="true" indicator-active-color="white" autoplay="true" interval="1500" circular="true">
+        <swiper-item class="Carousel ">
+          <image class="CarouselImg" src="../../image/Carousel/2.webp"></image>
+        </swiper-item>
+        <swiper-item class="Carousel ">
+          <image class="CarouselImg" src="../../image/Carousel/2.webp"></image>
+        </swiper-item>
+      </swiper>
+    </view>
+
+
+    <view class="workfu">
+      <view class="work">
+        <view class="destination">中国</view>
+        <image class="aircraft" src="../../image/home/飞机.png"></image>
+        <view class="destination">美国</view>
+        <button type="primary" style="background-color: #4e148c;" bindtap="spring">立即转运</button>
+
+      </view>
+    </view>
+
+  </view>
+
+  <view class="underpart">
+    <view class="customerbox">
+      <image class="customer" src="../../image/home/客服.png"></image>
+    </view>
+
+    <view class="carry_customer">
+
+      <view class="contact">
+        <view class="lxi">联系河马</view>
+        <view class="doubt">为您解决下单疑问?</view>
+      </view>
+
+      <view>
+        <image class="return" src="../../image/home/大返回.png"></image>
+      </view>
+
+    </view>
+
+  </view>
+  <!-- 转运须知 -->
+  <view class="clause">
+
+    <view class="Instructions">
+      <view class="matter">
+        <view class="matterxuzhi">转运须知</view>
+        <view>流程和注意事</view>
+      </view>
+
+      <view class="InstructionsImg">
+        <view class="xiaofuihui">
+          <image class="xiaofuihui2" src="../../image/home/小返回.png"></image>
+        </view>
+        <image class="carimg" src="../../image/home/汽车.png"></image>
+      </view>
+    </view>
+
+    <view class="Freight_estimate">
+      <view class="Freight_estimatefeiyong">
+        <view class="freight">运费估算</view>
+        <view>费用新中有数</view>
+      </view>
+
+      <view class="Freight_estimateImg">
+        <view class="return2box">
+          <image class="return2" src="../../image/home/小返回.png"></image>
+
+        </view>
+        <image class="Calculator" src="../../image/home/计算器.png"></image>
+      </view>
+
+    </view>
+
+  </view>
+  <view class="yunzuo">
+    <view class="operation">轻松运转</view>
+    <view class="flowpathbox">
+      <image class="flowpath " src="../../image/home/图片 4@1x.png"></image>
+
+    </view>
+    <view >
+    <view class="btn">
+        <button  type="primary" style=" border-radius: 40rpx;  background-color: #4e148c; display: flex; width: 100%; justify-content: center;">复制仓库地址去购物</button>
+        </view>
+        <view class="font">电商平台收货地址请填写我们</view>
+      </view>
+  </view>
+
+
+
+</view>

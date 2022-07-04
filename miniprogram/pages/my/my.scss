@@ -1,0 +1,131 @@
+.head {
+  display: flex;
+
+  background-color: #e7691d;
+  padding: 20rpx;
+
+  .avatar {
+    width: 140rpx;
+    height: 140rpx;
+
+  }
+
+  .name {
+    margin-left: 30rpx;
+    color: #fff;
+
+    .nameId {
+      font-size: 40rpx;
+      margin-bottom: 40rpx;
+    }
+  }
+}
+
+.box1 {
+  height: 30rpx;
+}
+
+.orderlist {
+  left: 8px;
+  top: 216px;
+  width: 700rpx;
+  height: 132px;
+  line-height: 20px;
+  border-radius: 10px 10px 10px 10px;
+  background-color: rgba(255, 255, 255, 100);
+  color: rgba(16, 16, 16, 100);
+  font-size: 14px;
+  text-align: center;
+  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.4);
+  font-family: Arial;
+  border: 1px solid rgba(187, 187, 187, 100);
+  margin-top: 20rpx;
+  margin: auto;
+
+  .order {
+    padding: 20rpx;
+    display: flex;
+    justify-content: space-between;
+
+    .whole_order {
+      color: #999999;
+    }
+
+
+  }
+
+  .function_bar {
+    display: flex;
+
+    // background-color: #0c98eb;
+    .function_bar1 {
+      margin-top: 20rpx;
+      width: 178rpx;
+      height: 40rpx;
+
+      .function_barimg {
+        width: 50rpx;
+        height: 50rpx;
+      }
+    }
+
+  }
+
+}
+
+.box-bored {
+  border: 0.5px red solid;
+  left: 23rpx;
+  top: 452rpx;
+  width: 710rpx;
+  height: NaNpx;
+  border: 1rpx solid rgba(241, 241, 241, 100);
+  margin: auto;
+}
+
+.dingkai {
+  height: 30rpx;
+}
+
+.function {
+  left: 8px;
+  top: 216px;
+  width: 700rpx;
+  line-height: 20px;
+  border-radius: 10px 10px 10px 10px;
+  background-color: rgba(255, 255, 255, 100);
+  color: rgba(16, 16, 16, 100);
+  font-size: 14px;
+  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.4);
+  font-family: Arial;
+  border: 1px solid rgba(187, 187, 187, 100);
+  margin: 20rpx;
+  padding: 20rpx;
+  box-sizing: border-box;
+
+  .wodedizhui {
+    display: flex;
+    justify-content: space-between;
+
+    .arrow {
+      width: 50rpx;
+      height: 50rpx;
+    }
+
+    .bored1 {
+      margin-top: 10rpx;
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+
+  .gan {
+
+    left: 23px;
+    top: 409px;
+    // width: 332px;
+    height: NaNpx;
+    border: 1px solid rgba(241, 241, 241, 100);
+  }
+}

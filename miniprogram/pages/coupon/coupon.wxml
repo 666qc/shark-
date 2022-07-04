@@ -1,0 +1,16 @@
+<view>
+  <view class="bgc"></view>
+  <view>
+    <view class="couponimg1">
+      <image  class="couponimgtu1" src="../../image/coupon/图片@1x.png"></image>
+    </view>
+    <view class="couponimg1">
+      <image  class="couponimgtu1" src="../../image/coupon/图片 Copy 2@1x.png"></image>
+    </view>
+    <view class="couponimg1">
+      <image  class="couponimgtu1" src="../../image/coupon/图片 Copy@1x.png"></image>
+    </view>
+
+
+  </view>
+</view>
