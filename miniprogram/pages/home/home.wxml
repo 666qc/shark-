@@ -19,8 +19,37 @@
         <view class="destination">中国</view>
         <image class="aircraft" src="../../image/home/飞机.png"></image>
         <view class="destination">美国</view>
-        <button type="primary" style="background-color: #4e148c;" bindtap="spring">立即转运</button>
 
+        <button type="primary" style="background-color: #4e148c;" bindtap="showRule">立即转运</button>
+<!--  -->
+<!-- 点击触发事件-->
+<!-- 弹出层 -->
+<view class="bg" style='display:{{display}}'></view>
+<view class="poupt {{isRuleTrue?'isRuleShow':'isRuleHide'}}">
+  <view class="intpok">预留渠道</view>
+
+  <view class="popup_box">
+    <!-- textinpot2 textinpot-->
+    <view class="textinpot" bindtap="tapHan" class="{{ test ? textinpot :'textinpot2' }} ">普通货物</view>
+    <view class="textinpot">电子产品</view>
+    <view class="textinpot">液体粉墨</view>
+    <view class="textinpot">内地EMS</view>
+    <view class="textinpot">广东EMS</view>
+  </view>
+
+  <view class="ttexk">
+    <view class="ttextone" bindtap='hideRule'>取消</view>
+    <!-- <view class="ttexttwo" bindtap='okk'>下一步</view> -->
+    
+      <view class="ttexttwo">
+        <navigator url="/pages/addAddress/addAddress">
+      下一步
+    </navigator>
+
+       </view>
+  </view>
+</view>
+<!--  -->
       </view>
     </view>
 
@@ -53,13 +82,14 @@
         <view class="matterxuzhi">转运须知</view>
         <view>流程和注意事</view>
       </view>
-
+      
       <view class="InstructionsImg">
         <view class="xiaofuihui">
           <image class="xiaofuihui2" src="../../image/home/小返回.png"></image>
         </view>
         <image class="carimg" src="../../image/home/汽车.png"></image>
       </view>
+
     </view>
 
     <view class="Freight_estimate">
@@ -85,12 +115,12 @@
       <image class="flowpath " src="../../image/home/图片 4@1x.png"></image>
 
     </view>
-    <view >
-    <view class="btn">
-        <button  type="primary" style=" border-radius: 40rpx;  background-color: #4e148c; display: flex; width: 100%; justify-content: center;">复制仓库地址去购物</button>
-        </view>
-        <view class="font">电商平台收货地址请填写我们</view>
+    <view>
+      <view class="btn">
+        <button type="primary" style=" border-radius: 40rpx;  background-color: #4e148c; display: flex; width: 100%; justify-content: center;">复制仓库地址去购物</button>
       </view>
+      <view class="font">电商平台收货地址请填写我们</view>
+    </view>
   </view>
 
 

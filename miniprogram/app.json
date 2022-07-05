@@ -4,6 +4,7 @@
     "pages/coupon/coupon",  
     "pages/order/order",  
     "pages/my/my",  
+    "pages/addAddress/addAddress",  
     "pages/logs/logs"
   ],
   "window": {

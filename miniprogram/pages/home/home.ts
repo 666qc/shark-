@@ -1,24 +1,43 @@
-// pages/home/home.ts
+// pages/order/order.ts
 Page({
-
   /**
    * 页面的初始数据
    */
   data: {
+    display: '',
+    // isRuleTrue: false,
+    showModal: false,
+    // showModal: false, //false关闭模态框  true开启模态框
+    AddClass: true
   },
-  spring(){
-    wx.showModal({
-      title: '提示',
-      content: "",
-      success (res) {
-        if (res.confirm){
-          console.log('用户点击确定')
-        } else if (res.cancel) {
-          console.log('用户点击取消')
-        }
-      }
+
+  tapHan(e: any) {
+    this.setData({
+      AddClass: e.target.dataset.index
     })
   },
+  showRule: function () {
+    this.setData({
+      isRuleTrue: true,
+      display: "block",
+    })
+  },
+  //留在页面
+  hideRule: function () {
+    this.setData({
+      isRuleTrue: false,
+      display: "none"
+    })
+  },
+  //跳转
+  okk() {
+    this.setData({
+      isRuleTrue: false,
+      
+
+    })
+  },
+
   /**
    * 生命周期函数--监听页面加载
    */

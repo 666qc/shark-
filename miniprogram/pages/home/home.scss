@@ -60,7 +60,123 @@
     width: 200rpx;
     font-size: 50rpx;
   }
-
+  //
+  .poppt {
+    width: 750rpx;
+    height: 1958rpx;
+    opacity: 0.38;
+    background: #333333;
+  }
+  
+  .poupt {
+    z-index: 99999;
+    position: absolute;
+    width: 520rpx;
+    opacity: 1;
+    background: #ffffff;
+    border-radius: 20rpx;
+    top: 35%;
+    left: 10%;
+    text-align: center;
+  }
+  
+  .isRuleShow {
+    display: block;
+  }
+  
+  
+  .isRuleHide {
+    display: none;
+  }
+  
+  .intpok {
+    font-size: 36rpx;
+    margin-top: 30rpx;
+  
+  }
+  
+  .popup_box {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+  
+  }
+  
+  .textinpot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200rpx;
+    height: 80rpx;
+    border-radius: 20rpx;
+    font-size: 28rpx;
+    margin-top: 30rpx;
+    font-weight: 800;
+    // background-color: #52128d;
+    border: 1rpx #52128d solid;
+    color: #52128d;
+    margin: 20rpx;
+  }
+  
+  .textinpot2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200rpx;
+    height: 80rpx;
+    border-radius: 20rpx;
+    font-size: 28rpx;
+    margin-top: 30rpx;
+    font-weight: 800;
+    background-color: #52128d;
+    border: 1rpx #52128d solid;
+    color: #fff;
+    margin: 20rpx;
+  }
+  
+  .ttexk {
+    width: 70%;
+    height: 80rpx;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 30rpx;
+  
+  }
+  
+  .ttextone {
+    font-size: 32rpx;
+    font-weight: 400;
+    line-height: 70rpx;
+  }
+  
+  .ttexttwo {
+    width: 200rpx;
+    height: 70rpx;
+    opacity: 1;
+    border-radius: 16rpx;
+    font-weight: 700;
+    color: #00c433
+    ;
+    font-size: 32rpx;
+    text-align: center;
+    line-height: 70rpx;
+  }
+  
+  .bg {
+    display: none;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 1001;
+    -moz-opacity: 0.7;
+    opacity: 0.70;
+    filter: alpha(opacity=70);
+  }
+  //
   // }
 
 }
@@ -165,6 +281,7 @@
           // justify-content: center;
           width: 80rpx;
           height: 40rpx;
+          // margin-top: 100rpx;
         }
       }
       .carimg{
@@ -198,6 +315,7 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
+      margin-top: 100rpx;
       margin-left: 70rpx;
 
       .return2box{

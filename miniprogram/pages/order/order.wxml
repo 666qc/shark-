@@ -1,2 +1,21 @@
-<!--pages/order/order.wxml-->
-<text>pages/order/order.wxml</text>
+<!-- 点击触发事件-->
+<image class="pic" bindtap='showRule' src="../../image/coupon/图片 Copy 2@1x.png"></image>
+<!-- 弹出层 -->
+<view class="bg" style='display:{{display}}'></view>
+<view class="poupt {{isRuleTrue?'isRuleShow':'isRuleHide'}}">
+  <view class="intpok">预留渠道</view>
+
+  <view class="popup_box">
+    <!-- textinpot2 textinpot-->
+    <view class="textinpot" bindtap="tapHan" class=" {{ test ? textinpot :'textinpot2' }}">普通货物</view>
+    <view class="textinpot">电子产品</view>
+    <view class="textinpot">液体粉墨</view>
+    <view class="textinpot">内地EMS</view>
+    <view class="textinpot">广东EMS</view>
+  </view>
+
+  <view class="ttexk">
+    <view class="ttextone" bindtap='okk'>取消</view>
+    <view class="ttexttwo" bindtap='hideRule'>下一步</view>
+  </view>
+</view>

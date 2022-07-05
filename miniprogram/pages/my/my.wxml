@@ -62,7 +62,48 @@
 
         <view>
       <view class="wodedizhui">
-        <view class="bored1">我的地址</view>
+        <view class="bored1">我的优惠券</view>
+        <image  class="arrow" src="../../image/my/小箭头.png"></image>
+      </view>
+      <view class="gan"></view>
+    </view>
+
+    <view>
+      <view class="wodedizhui">
+        <view class="bored1">活动中心</view>
+        <image  class="arrow" src="../../image/my/小箭头.png"></image>
+      </view>
+      <view class="gan"></view>
+    </view>
+
+    <view>
+      <view class="wodedizhui">
+        <view class="bored1">联系客服</view>
+        <image  class="arrow" src="../../image/my/小箭头.png"></image>
+      </view>
+      <view class="gan"></view>
+    </view>
+
+    <view>
+      <view class="wodedizhui">
+        <view class="bored1">转运流程</view>
+        <image  class="arrow" src="../../image/my/小箭头.png"></image>
+      </view>
+      <view class="gan"></view>
+    </view>
+
+    <view>
+      <view class="wodedizhui">
+        <view class="bored1">转运须知</view>
+        <image  class="arrow" src="../../image/my/小箭头.png"></image>
+      </view>
+      <view class="gan"></view>
+    </view>
+
+
+    <view>
+      <view class="wodedizhui">
+        <view class="bored1">关于我们</view>
         <image  class="arrow" src="../../image/my/小箭头.png"></image>
       </view>
       <view class="gan"></view>

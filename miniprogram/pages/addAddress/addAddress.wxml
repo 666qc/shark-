@@ -1,0 +1,74 @@
+<view class="addAddress">
+  <!-- 仓库地址 -->
+
+  <view class="Warehouse ">
+    <view class="addressico">
+      <image class="Icon" src="../../image/Warehouse/Icon.png"></image>
+    </view>
+
+    <view class="addresInfo">
+      <view class="Warehouse_address">仓库地址</view>
+      <view class="shark">
+        <view class="Warehouse1">
+          <view class="info">河马仓库</view>
+          <view class="phone">17350088291 <text>复制</text></view>
+        </view>
+      </view>
+
+      <view class="dizhiixnxi">深圳市龙华街道工业路壹城环智中心c坐2607室</view>
+    </view>
+  </view>
+
+  <view class="box">
+    <view>
+      <view>目标国家收件信息</view>
+    </view>
+
+    <view>
+      <view class="Select_address">
+
+      <view class="Tips">
+        <image class="img" src="../../image/Warehouse/感叹号.png"></image>        
+        <view class="Tipstext">请用英文填写</view>
+      </view>
+
+        <button type="primary" plain="true" plain="true" size="mini" style="height: 60rpx; margin-right: 40rpx;">选择地址</button>
+      </view>
+
+      <view>
+
+      <view class="input">
+     <view class="name"> Name:</view>
+      <input 	focus="true" placeholder="Please fil in the recipiont`s name  "/>
+      </view>
+
+      <view class="input">
+     <view class="name"> Phone:</view>
+      <input 	focus="true" placeholder="Please fil in the recipiont`s Phone  "/>
+      </view>
+
+      <view class="input">
+     <view class="name"> Address:</view>
+      <input 	focus="true" placeholder="Please fil in the Addresse  "/>
+      </view>
+
+      <view class="input">
+     <view class="name"> City:</view>
+      <input 	focus="true" placeholder="Please fil in the City  "/>
+      </view>
+
+      <view class="input">
+     <view class="name"> PostCode:</view>
+      <input 	focus="true" placeholder="Please fil in the PostCode  "/>
+      </view>
+
+      </view>
+    
+    </view>
+
+  </view>
+
+  <view class="transport">
+  <button type="primary" style="background-color: #52128d;">立即转运</button>
+  </view>
+</view>
