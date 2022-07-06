@@ -1,4 +1,4 @@
-// pages/addAddress/addAddress.ts
+// pages/myAddress/myAddress.ts
 Page({
 
   /**
@@ -7,12 +7,11 @@ Page({
   data: {
 
   },
-  Jump(){
+  click(){
     wx.navigateTo({
-      url: '/pages/addressList/addressList',
+      url: '/pages/setAddress/setAddress'
     })
   },
-
   /**
    * 生命周期函数--监听页面加载
    */

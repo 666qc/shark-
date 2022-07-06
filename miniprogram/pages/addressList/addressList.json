@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "van-icon": "@vant/weapp/icon/index",
+    "van-radio": "@vant/weapp/radio/index",
+    "van-radio-group": "@vant/weapp/radio-group/index"
+  }, 
+    "navigationBarBackgroundColor": "#fd6000",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "鲨鱼帮运"
+}

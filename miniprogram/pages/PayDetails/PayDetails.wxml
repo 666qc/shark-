@@ -1,0 +1,51 @@
+<view class="Payment_details_box">
+
+  <view class="Warehouse ">
+    <view class="addressico">
+      <image class="Icon" src="../../image/xiaotubiao/支付详情.png"></image>
+    </view>
+
+    <view class="addresInfo">
+      <view class="shark">
+        <view class="Warehouse1">
+          <view class="info">河马仓库</view>
+          <view class="guojia">国家</view>
+          <view class="phone">17350088291</view>
+        </view>
+      </view>
+
+      <view class="dizhiixnxi">深圳市龙华街道工业路壹城环智中心c坐2607室</view>
+    </view>
+  </view>
+
+  <view class="Order_details">
+    <view class="Payment_details">
+      <view>订单号</view>
+      <view>20220742342543432</view>
+    </view>
+    <view class="Payment_details">
+      <view>运载路线</view>
+      <view>中国-美国</view>
+    </view>
+    <view class="Payment_details">
+      <view>预选渠道</view>
+      <view>普通货物</view>
+    </view>
+    <view class="xx"></view>
+    <view style="display: flex; justify-content:  flex-end ; line-height: 80rpx;">已优惠 ￥8 小计：￥28.00</view>
+  </view>
+
+
+
+  <view class="bottom">
+    <view class="total_Price">
+      <view>订到总金额</view>
+      <view class="yuedu">阅读并同意 《电子运单契约条款》</view>
+    </view>
+
+    <view class="zhifu">
+      <button class="fu" style="display: flex;width: 270rpx;">立即支付</button>
+    </view>
+  </view>
+
+</view>

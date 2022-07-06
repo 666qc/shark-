@@ -5,6 +5,10 @@
     "pages/order/order",  
     "pages/my/my",  
     "pages/addAddress/addAddress",  
+    "pages/PayDetails/PayDetails",  
+    "pages/myAddress/myAddress", 
+    "pages/setAddress/setAddress", 
+    "pages/addressList/addressList", 
     "pages/logs/logs"
   ],
   "window": {
@@ -44,6 +48,5 @@
   "selectedColor": "#4c168e"
   },
 
-  "style": "v2",
   "sitemapLocation": "sitemap.json"
 }

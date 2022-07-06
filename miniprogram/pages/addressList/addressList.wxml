@@ -1,0 +1,73 @@
+<view class="box">
+  <view class="box1">
+
+    <view class="Warehouse ">
+      <view class="addressico">
+        <view>我</view>
+      </view>
+
+      <view class="addresInfo">
+        <view class="shark">
+          <view class="Warehouse1">
+            <view class="phone">17350088291 </view>
+          </view>
+        </view>
+
+        <view class="dizhiixnxi">深圳市龙华街道工业路壹城环智中心c坐2607室</view>
+      </view>
+
+
+      <!--  -->
+    </view>
+
+    <view class="Receiving_goods">
+      <view class="kk">
+        <van-radio icon-size="30rpx" name="1"></van-radio>
+        <view>默认寄件地址</view>
+      </view>
+      <view class="icon">
+        <van-icon name="edit" />
+        <van-icon name="delete-o" />
+      </view>
+    </view>
+  </view>
+
+
+  <view class="box1">
+
+    <view class="Warehouse ">
+      <view class="addressico">
+        <view>我</view>
+      </view>
+
+      <view class="addresInfo">
+        <view class="shark">
+          <view class="Warehouse1">
+            <view class="phone">17350088291</view>
+          </view>
+        </view>
+
+        <view class="dizhiixnxi">深圳市龙华街道工业路壹城环智中心c坐2607室</view>
+      </view>
+
+
+      <!--  -->
+    </view>
+
+    <view class="Receiving_goods">
+      <view class="kk">
+        <van-radio icon-size="30rpx" name="1"></van-radio>
+        <view>默认寄件地址</view>
+      </view>
+      <view class="icon">
+        <van-icon name="edit" />
+        <van-icon name="delete-o" />
+      </view>
+    </view>
+  </view>
+
+  <view class="New_addressbox">
+    <!-- setAddress -->
+  <button class="New_address">新增地址</button>
+  </view>
+</view>

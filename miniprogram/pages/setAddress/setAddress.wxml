@@ -1,0 +1,55 @@
+<view>
+
+  <view>
+
+
+    <view class="input">
+      <view class="name"> Name:</view>
+      <input style="width: 600rpx;" focus="true" placeholder="Please fil in the recipiont`s name  " />
+    </view>
+
+    <view class="input">
+      <view class="name"> Phone:</view>
+      <input style="width: 600rpx;" focus="true" placeholder="Please fil in the recipiont`s Phone  " />
+    </view>
+
+    <view class="input">
+      <view class="name"> Address:</view>
+      <input style="width: 600rpx;" focus="true" placeholder="Please fil in the Addresse  " />
+    </view>
+
+    <view class="input">
+      <view class="name"> City:</view>
+      <input style="width: 600rpx;" focus="true" placeholder="Please fil in the City  " />
+    </view>
+
+    <view class="input">
+      <view class="name"> PostCode:</view>
+      <input style="width: 600rpx;" focus="true" placeholder="Please fil in the PostCode  " />
+    </view>
+
+    <view class="input">
+      <view class="name"> Country:</view>
+      <view  style="width: 600rpx; display: flex; justify-content: flex-end; padding-right: 20rpx;color: #999;" bindtap="linkage" > Please fil in the PostCode ></view>
+      <!-- <input style="width: 600rpx;" focus="true" placeholder="Please fil in the PostCode  " />-->
+    </view>
+  </view>
+  <view class="bor"></view>
+
+  <view class="default">
+    <view>设为默认</view>
+    <view>
+      <van-switch checked="{{ checked }}" bind:change="onChange" active-color="#07c160"  inactive-color="#e2e2e3" size="24px" />
+    </view>
+  </view>
+
+  <view>
+    <button class="btn" form-type='submit'>添加地址</button>
+  </view>
+
+  <view>
+  <!-- <view bindtap="click">1111111111</view>
+    <view  hidden="{{hiddenName}}">隐藏显示部分</view> -->
+  <linkage></linkage>
+  </view>
+</view>

@@ -1,0 +1,9 @@
+<view class="Empty_address">
+  <view class="Empty_addresstu">
+    <image style="margin: auto;" src="../../image/AddressRelated/空.png"></image>
+
+  </view>
+  <view class="btn">
+  <button bindtap="click" type="primary" size="mini">添加收货地址</button>
+  </view>
+</view>

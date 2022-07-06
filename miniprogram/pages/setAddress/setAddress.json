@@ -1,0 +1,10 @@
+{
+  "navigationBarBackgroundColor": "#fd6000",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "鲨鱼帮运",
+  "usingComponents": {
+    "van-switch": "@vant/weapp/switch/index",
+    "linkage":"/component/linkage/linkage"
+  }
+}
+

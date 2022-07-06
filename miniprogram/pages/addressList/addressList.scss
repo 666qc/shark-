@@ -1,0 +1,115 @@
+.box {
+  position: relative;
+  padding: 20rpx;
+  margin: 0 20rpx;
+  margin-bottom: 20rpx;
+
+  .box1 {
+
+    margin-bottom: 40rpx;
+
+    .Warehouse {
+      font-size: 14px;
+      display: flex;
+      justify-content: flex-start;
+
+      .addressico {
+        margin-right: 20rpx;
+        border-radius: 50%;
+        width: 100rpx;
+        height: 50rpx;
+        background-color: #52128d;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .Icon {
+          // align-items: center;
+          margin-left: 10rpx;
+          width: 30rpx;
+          height: 30rpx;
+          background-color: #52128d;
+          margin-right: 10rpx;
+        }
+      }
+
+      .addresInfo {
+        display: flex;
+        flex-wrap: wrap;
+
+        .shark {
+          display: flex;
+
+          .Warehouse1 {
+            margin-top: 10rpx;
+            display: flex;
+            flex-wrap: wrap;
+
+            .info {
+              width: 200rpx;
+              height: 40rpx;
+            }
+
+            .phone {
+              // display: flex;
+              width: 400rpx;
+              height: 50rpx;
+
+              text {
+                color: #27b29e;
+                font-size: 18rpx;
+                background-color: #d2f2de;
+              }
+            }
+          }
+        }
+
+        .dizhiixnxi {
+          color: #666;
+        }
+      }
+    }
+
+  }
+
+  .Receiving_goods {
+    margin-top: 30rpx;
+    color: #fa7b60;
+    font-size: 25rpx;
+    display: flex;
+    justify-content: space-between;
+
+    .icon {
+      color: 20rpx;
+
+      .van-icon {
+        color: #999;
+        margin-right: 10rpx;
+      }
+    }
+
+    .kk {
+      display: flex;
+
+      .van-radio {
+        // width: 20rpx;
+        // height: 20rpx;.0
+      }
+    }
+  }
+  .New_addressbox{
+  }
+
+  .New_address {
+    position: fixed;
+    bottom: 0;
+    width: 90%;
+    border-radius: 20px;
+    background-color: rgba(231, 105, 29, 100);
+    color: rgba(255, 255, 255, 100);
+    font-size: 14px;
+    text-align: center;
+    font-family: Microsoft Yahei;
+    border: 1px solid rgba(231, 105, 29, 100);
+  }
+}

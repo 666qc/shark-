@@ -1,0 +1,147 @@
+// .page{
+// height: 100%;
+
+// }
+.Payment_details_box {
+  margin: 20rpx;
+  position: relative;
+  height: 100%;
+
+  .Warehouse {
+    opacity: 0.85;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 79);
+    color: rgba(16, 16, 16, 100);
+    font-size: 14px;
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.4);
+    font-family: Arial;
+    border: 1px solid rgba(255, 255, 255, 100);
+    margin-top: 20rpx;
+    padding: 20rpx;
+    display: flex;
+    justify-content: flex-start;
+
+    .addressico {
+      margin-top: 20rpx;
+      margin-right: 20rpx;
+      border-radius: 50%;
+      width: 75rpx;
+      height: 45rpx;
+      background-color: #ffa30b;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .Icon {
+        // align-items: center;
+        margin-left: 10rpx;
+        width: 30rpx;
+        height: 30rpx;
+        background-color: #ffa30b;
+        margin-right: 10rpx;
+      }
+    }
+
+    .addresInfo {
+      display: flex;
+      flex-wrap: wrap;
+
+      .shark {
+        display: flex;
+
+        .Warehouse1 {
+          margin-top: 10rpx;
+          display: flex;
+          justify-content: center;
+
+          // flex-wrap:wrap ;
+          .info {
+            width: 150rpx;
+            height: 40rpx;
+          }
+
+          .guojia {
+            margin-right: 30rpx;
+          }
+
+          .phone {
+            width: 200rpx;
+            height: 50rpx;
+
+            text {
+              color: #27b29e;
+              font-size: 18rpx;
+              background-color: #d2f2de;
+            }
+          }
+        }
+      }
+
+      .dizhiixnxi {
+        color: #666;
+      }
+    }
+  }
+
+  .Order_details {
+    padding: 20rpx;
+    margin-top: 30rpx;
+    // height: 358rpx;
+    line-height: 20px;
+    opacity: 0.85;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 79);
+    color: rgba(16, 16, 16, 100);
+    font-size: 14px;
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.4);
+    font-family: Arial;
+    border: 1px solid rgba(255, 255, 255, 100);
+
+    .Payment_details {
+      display: flex;
+      justify-content: space-between;
+      padding: 10rpx;
+    }
+
+    .xx {
+      left: 24px;
+      top: 517px;
+      // width: 329px;
+      height: NaNpx;
+      border: 1px solid rgba(187, 187, 187, 100);
+    }
+  }
+
+  .kbai {
+    height: 300rpx;
+    background-color: red;
+  }
+
+  .bottom {
+    bottom: 0;
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+
+    .total_Price {
+      .yuedu {
+        margin-left: 30rpx;
+        margin-bottom: 30rpx;
+      }
+    }
+
+    .zhifu {
+      display: flex;
+
+      .fu {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 50rpx;
+      }
+    }
+  }
+
+}

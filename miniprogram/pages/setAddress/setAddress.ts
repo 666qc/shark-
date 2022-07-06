@@ -1,16 +1,24 @@
-// pages/addAddress/addAddress.ts
+// pages/setAddress/setAddress.ts
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    checked: true,
+    hiddenName:true
   },
-  Jump(){
-    wx.navigateTo({
-      url: '/pages/addressList/addressList',
+  onChange({ detail }) {
+    // 需要手动对 checked 状态进行更新
+    this.setData({ checked: detail });
+  },
+  click(e: any){
+    this.setData({
+      hiddenName:!this.data.hiddenName
     })
+  },
+  linkage(){
+
   },
 
   /**

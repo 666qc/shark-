@@ -1,4 +1,4 @@
-// pages/addAddress/addAddress.ts
+// pages/addressList/addressList.ts
 Page({
 
   /**
@@ -6,11 +6,6 @@ Page({
    */
   data: {
 
-  },
-  Jump(){
-    wx.navigateTo({
-      url: '/pages/addressList/addressList',
-    })
   },
 
   /**
