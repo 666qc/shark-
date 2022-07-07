@@ -44,12 +44,12 @@
   </view>
 
   <view>
+  <navigator url="/pages/myAddress/myAddress">
     <button class="btn" form-type='submit'>添加地址</button>
+  </navigator>
   </view>
 
   <view>
-  <!-- <view bindtap="click">1111111111</view>
-    <view  hidden="{{hiddenName}}">隐藏显示部分</view> -->
-  <linkage></linkage>
+  <linkage bindtap="click" ></linkage>
   </view>
 </view>

@@ -90,6 +90,20 @@
           "query": "",
           "launchMode": "default",
           "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/couponDetails/couponDetails",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/mycoupon/mycoupon",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
         }
       ]
     }

@@ -1,0 +1,60 @@
+.box {
+  font-size: 25rpx;
+  margin: 30rpx 30rpx;
+  box-sizing: border-box;
+
+  .top {
+    margin-top: 20rpx;
+    display: flex;
+
+    .left {
+      width: 200rpx;
+      height: 0;
+     
+      .coupon{
+        font-size: 50rpx;
+        font-weight: 900rpx;
+        .text{
+          font-size: 18rpx;
+        }
+      }
+      .money{
+        font-size: 18rpx;
+        margin-bottom: 20rpx;
+      }
+    }
+    .right{
+      font-size: 20rpx;
+      .right11{
+      }
+      .Preferentialterms{
+        margin-top: 10rpx;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .btn{
+          width:125rpx;
+          height: 40rpx;
+          align-items: center;
+          font-size: 16rpx;
+          border-radius: 20rpx;
+          margin-left: 20rpx;
+        }
+      }
+    }
+
+    /*red表示虚线的颜色为红色，1px表示边框宽度为一个像素，dashed表示边框线型为虚线*/
+    // top: 107px;
+    // width: 10px;
+    // height: 86px;
+    .box1{
+      margin-top: 10rpx;
+
+    }
+  }
+  .line_height{
+    line-height: 40rpx;
+  }
+  
+}
+// }

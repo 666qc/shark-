@@ -9,6 +9,9 @@
     "pages/myAddress/myAddress", 
     "pages/setAddress/setAddress", 
     "pages/addressList/addressList", 
+    "pages/orderDetails/orderDetails", 
+    "pages/couponDetails/couponDetails", 
+    "pages/mycoupon/mycoupon", 
     "pages/logs/logs"
   ],
   "window": {

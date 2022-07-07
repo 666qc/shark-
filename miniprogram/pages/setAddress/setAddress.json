@@ -4,7 +4,8 @@
   "navigationBarTitleText": "鲨鱼帮运",
   "usingComponents": {
     "van-switch": "@vant/weapp/switch/index",
+    "van-area": "@vant/weapp/area/index",
     "linkage":"/component/linkage/linkage"
   }
 }
-
+  

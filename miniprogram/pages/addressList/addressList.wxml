@@ -43,6 +43,7 @@
       <view class="addresInfo">
         <view class="shark">
           <view class="Warehouse1">
+          <view>kk</view>
             <view class="phone">17350088291</view>
           </view>
         </view>
@@ -68,6 +69,9 @@
 
   <view class="New_addressbox">
     <!-- setAddress -->
-  <button class="New_address">新增地址</button>
+    <navigator url="/pages/setAddress/setAddress">
+      <button class="New_address" bindtap="">新增地址</button>
+    </navigator>
+  
   </view>
 </view>

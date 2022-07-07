@@ -1,0 +1,58 @@
+<view class="box">
+  <view class="top">
+    <!-- tobu  -->
+    <view class="left" style="border-right: rgb(240, 84, 84) 1px dashed;">
+      <view class="coupon"> <text class="text">$</text> 10</view>
+      <view class="money">满$599使用</view>
+    </view>
+
+    <view class="right">
+      <!-- s双十一 -->
+      <view class="right11">双十一无门槛10元</view>
+      <view class="Preferentialterms">
+        <view class="term">2018.04.11到期 (仅剩一天了) </view>
+        <view> <button class="btn" size="mini" type="warn">立即领取</button> </view>
+      </view>
+      <view style="height: 30rpx; width: 100%;  "></view>
+    </view>
+
+  </view>
+
+  <!-- 全场通知 -->
+  <view class="box1" style="border-top: rgb(240, 84, 84) 1px dashed; display: flex; justify-content: space-between; ">
+    <view>全场通用</view>
+    <image style="width: 30rpx; height: 30rpx;" src="../../image/优惠券/图标 Copy@1x.png"></image>
+
+
+
+  </view>
+
+  <view>
+    <view style="margin: 40rpx 0rpx;">使用须知</view>
+    <view>有限期</view>
+    <view>2022-04-29至2022-06-01 23:59 </view>
+
+    <view style="margin-top: 40rpx;"></view>
+    <view>
+      <view>不可用日期</view>
+      <view>2022-04-29至2022-06-01 23:59 </view>
+      <view class="line_height">使用</view>
+      <view class="line_height">使用时间</view>
+      <view class="line_height">使用时间</view>
+      <view class="line_height">00-23:59</view>
+      <view class="line_height">使用范围:</view>
+      <view class="line_height">全场通用</view>
+      <view style="margin-top: 40rpx;"></view>
+    </view>
+
+    <view>
+      <view class="line_height">使用规则</view>
+      <view class="line_height">适用于运费</view>
+      <view class="line_height">普通货物</view>
+      <view class="line_height">使用规则</view>
+    </view>
+
+  </view>
+
+
+</view>

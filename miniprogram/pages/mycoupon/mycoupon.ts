@@ -1,24 +1,10 @@
-// pages/setAddress/setAddress.ts
-import { areaList } from '@vant/area-data'; 
+// pages/mycoupon/mycoupon.ts
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    areaList,
-    hiddenName:true,
-  },
-  // onChange({ detail:ayn }) {
-    // 需要手动对 checked 状态进行更新
-    // this.setD  ata({ checked: detail:ayn });
-  // },
-  click(){
-    this.setData({
-      hiddenName:!this.data.hiddenName
-    })
-  },
-  linkage(){
 
   },
 
